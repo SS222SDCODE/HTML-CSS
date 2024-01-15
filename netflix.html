@@ -1,0 +1,1610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="/css/netflix.css">
+    <!-- bootstrap CSS files -->
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- nav- bar -->
+        <nav class="navbar navbar-expand-lg  navbar-color navbar-padding-left navbar-padding-right ">
+            <div class="container-fluid">
+                <div class="netflix-row">
+                    <section class="left d-flex align-items-center">
+                        <a href="#">
+                            <img src="/images/logo-netflix.1e66eca0ecf8444cc1dc.svg" alt="">
+                        </a>
+                        <div class="dropdown-box  dropdown  ">
+                            <button class="dropdown-box-sub dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Browse
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Home</a></li>
+                                <li><a class="dropdown-item" href="#">TV Shows</a></li>
+                                <li><a class="dropdown-item" href="#">Movies</a></li>
+                                <li><a class="dropdown-item" href="#">News & Popular</a></li>
+                                <li><a class="dropdown-item" href="#">My List</a></li>
+                            </ul>
+                        </div>
+                        <div class="navbar-items">
+                            <section>
+                                <button class="fs-6 fw-bold px-2">Home</button>
+                                <button class="fs-6 fw-bold px-2">TV Shows</button>
+                                <button class="fs-6 fw-bold px-2">Movies</button>
+                                <button class="fs-6 fw-bold px-2">News & Popular</button>
+                                <button class="fs-6 fw-bold px-2">My List</button>
+                            </section>
+                        </div>
+                    </section>
+                    <section class="right ">
+                        <i class="fa fa-search icons-bar-1" aria-hidden="true"></i>
+                        <i class="fa fa-bell icons-bar-1" aria-hidden="true"></i>
+                        <i class="fa fa-bars icons-bar" aria-hidden="true"></i>
+                    </section>
+                </div>
+            </div>
+        </nav>
+
+        <!-- nav - bar end -->
+        <!-- nav - banner Start -->
+ 
+        <div id="carouselExampleIndicators" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+            <!-- <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div> -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1000">
+                    <div class="video-background-holder">
+                        <div class="video-background-overlay">
+                        </div>
+                        <video class=" video-1" autoplay loop muted>
+                            <source src="/images/la.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-background-content container h-100 ">
+                            <div class="d-flex h-100  align-items-center">
+                                <div class="w-100 text-white">
+                                    <img src="/images/logo-netflix.1e66eca0ecf8444cc1dc.svg" class="img-1 ms-3 mb-3"
+                                        style="width: 20%; " alt="">
+                                    <h1 class="display-5 ms-3">Netflix Unveils Cast of <span
+                                            class="color fw-bold">‘Money
+                                            Heist’</span>Spinoff ‘Berlin’
+                                    </h1>
+                                    <h2 class="text-2 ms-3 mb-4"><span class="color-1 fw-bold ">Berlin....</span></h2>
+                                    <div class="mt-2 d-flex">
+                                        <button type="button" class="btn btn-light ms-3 m-2 fs-5"
+                                            style="width: 20%; height: 6vh;"><i class="fa fa-play text-dark px-3"
+                                                aria-hidden="true"></i><b>Play
+                                                Now</b></button>
+                                        <button type="button" class="btn btn-light  ms-3 m-2 fs-5"
+                                            style="width: 20%; height: 6vh;"><i
+                                                class="fa fa-paper-plane text-dark px-3 " aria-hidden="true"></i><b>More
+                                                Info</b></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <div class="video-background-holder">
+                        <div class="video-background-overlay">
+                        </div>
+                        <video class=" video-1" autoplay loop muted>
+                            <source src="/images/berlin.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-background-content container h-100 ">
+                            <div class="d-flex h-100  align-items-center">
+                                <div class="w-100 text-white">
+                                    <img src="/images/logo-netflix.1e66eca0ecf8444cc1dc.svg" class="img-1 ms-3 mb-3"
+                                        style="width: 20%; " alt="">
+                                    <h1 class="display-5 ms-3">Netflix Unveils Cast of <span
+                                            class="color fw-bold">‘Money
+                                            Heist’</span>Spinoff ‘Berlin’
+                                    </h1>
+                                    <h2 class="text-2 ms-3 mb-4"><span class="color-1 fw-bold ">Berlin....</span></h2>
+                                    <div class="mt-2 d-flex">
+                                        <button type="button" class="btn btn-light ms-3 m-2 fs-5"
+                                            style="width: 20%; height: 6vh;"><i class="fa fa-play text-dark px-3"
+                                                aria-hidden="true"></i><b>Play
+                                                Now</b></button>
+                                        <button type="button" class="btn btn-light  ms-3 m-2 fs-5"
+                                            style="width: 20%; height: 6vh;"><i
+                                                class="fa fa-paper-plane text-dark px-3 " aria-hidden="true"></i><b>More
+                                                Info</b></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <div class="video-background-holder">
+                        <div class="video-background-overlay">
+                        </div>
+                        <video class=" video-1" autoplay loop muted>
+                            <source src="/images/Money Heist .mp4"
+                                type="video/mp4">
+                        </video>
+                        <div class="video-background-content container h-100 ">
+                            <div class="d-flex h-100  align-items-center">
+                                <div class="w-100 text-white">
+                                    <img src="/images/logo-netflix.1e66eca0ecf8444cc1dc.svg" class="img-1 ms-3 mb-3"
+                                        style="width: 20%; " alt="">
+                                    <h1 class="display-5 ms-3">Netflix Unveils Cast of <span
+                                            class="color fw-bold">‘Money
+                                            Heist’</span>Spinoff ‘Berlin’
+                                    </h1>
+                                    <h2 class="text-2 ms-3 mb-4"><span class="color-1 fw-bold ">Berlin....</span></h2>
+                                    <div class="mt-2 d-flex">
+                                        <button type="button" class="btn btn-light ms-3 m-2 fs-5"
+                                            style="width: 20%; height: 6vh;"><i class="fa fa-play text-dark px-3"
+                                                aria-hidden="true"></i><b>Play
+                                                Now</b></button>
+                                        <button type="button" class="btn btn-light  ms-3 m-2 fs-5"
+                                            style="width: 20%; height: 6vh;"><i
+                                                class="fa fa-paper-plane text-dark px-3 " aria-hidden="true"></i><b>More
+                                                Info</b></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="1000">
+                    <div class="video-background-holder">
+                        <div class="video-background-overlay">
+                        </div>
+                        <video class=" video-1" autoplay loop muted>
+                            <source src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"
+                                type="video/mp4">
+                        </video>
+                        <div class="video-background-content container h-100 ">
+                            <div class="d-flex h-100  align-items-center">
+                                <div class="w-100 text-white">
+                                    <img src="/images/logo-netflix.1e66eca0ecf8444cc1dc.svg" class="img-1 ms-3 mb-3"
+                                        style="width: 20%; " alt="">
+                                    <h1 class="display-5 ms-3">Netflix Unveils Cast of <span
+                                            class="color fw-bold">‘Money
+                                            Heist’</span>Spinoff ‘Berlin’
+                                    </h1>
+                                    <h2 class="text-2 ms-3 mb-4"><span class="color-1 fw-bold ">Berlin....</span></h2>
+                                    <div class="mt-2 d-flex">
+                                        <button type="button" class="btn btn-light ms-3 m-2 fs-5"
+                                            style="width: 20%; height: 6vh;"><i class="fa fa-play text-dark px-3"
+                                                aria-hidden="true"></i><b>Play
+                                                Now</b></button>
+                                        <button type="button" class="btn btn-light  ms-3 m-2 fs-5"
+                                            style="width: 20%; height: 6vh;"><i
+                                                class="fa fa-paper-plane text-dark px-3 " aria-hidden="true"></i><b>More
+                                                Info</b></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button> -->
+        </div>
+    </header>
+    <main>
+        <!--                                                           Tranding Movies                                    -->
+
+        <section class=" video-2">
+            <h3 class="text-white  fw-bold  tranding">Tranding Movies</h3>
+            <div class="container-1">
+                <div class="movie-cards">
+                    <div class="card-1">
+                        <img src="/images/wp11764653-wednesday-adams-2022-wallpapers.jpg" alt="">
+                        <div class="content">
+                            <h1 class="name">Wednesday</h1>
+                            <h3 class="info">
+                                <i class="fa fa-star" aria-hidden="true"></i> | 8.9/10 | 2023/03/05 |165min
+                            </h3>
+                            <p class="info-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae unde odit
+                                saepe!</p>
+                            <div class="icons-1">
+                                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <div class="card-1">
+                        <img src="/images/wp9647609-aladdin-movie-characters-wallpapers.jpg" alt="">
+                        <div class="content">
+                            <h1 class="name">
+                                Aladdin</h1>
+                            <h3 class="info">
+                                <i class="fa fa-star" aria-hidden="true"></i> | 9.9/10 | 2023/06/08 |265min
+
+                            </h3>
+                            <p class="info-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae unde odit
+                                saepe!</p>
+                            <div class="icons-1">
+                                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="movie-cards">
+                    <div class="card-1">
+                        <img src="/images/wp12439045.jpg" alt="">
+                        <div class="content">
+                            <h1 class="name">Extraction 2</h1>
+                            <h3 class="info">
+                                <i class="fa fa-star" aria-hidden="true"></i> | 9.0/10 | 2023/03/09 |225min
+
+                            </h3>
+                            <p class="info-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae unde odit
+                                saepe!</p>
+                            <div class="icons-1">
+                                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="movie-cards">
+
+                    <div class="card-1">
+                        <img src="/images/wp12639193-oppenheimer-4k-wallpapers.jpg" alt="">
+                        <div class="content">
+                            <h1 class="name">Oppenheimer</h1>
+                            <h3 class="info">
+                                <i class="fa fa-star" aria-hidden="true"></i> | 10.5/10 | 2023/11/11 |365min
+
+                            </h3>
+                            <p class="info-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae unde odit
+                                saepe!</p>
+                            <div class="icons-1">
+                                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-bookmark" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-share" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--                                        Tranding Movies  End                                      -->
+
+        <!--                                        Bollywood Movies                                           -->
+
+        <section class="p-5 nav-banner ">
+            <h3 class="px-2 p-5 ms-2 text-white fw-bold ">Bollywood Movies</h3>
+            <div class="container-fluid">
+
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <!-- carousel-item -0 -->
+
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <section class="d-flex">
+                                <div class="card  ms-auto   border-0  " style="width: 30rem; ">
+                                    <video autoplay loop muted
+                                        src="/images/Dunki Drop 4 _ Shah Rukh Khan _ Rajkumar Hirani _ Taapsee _ Vicky _ Boman _ 21st Dec 2023.mp4"></video>
+                                      
+                                    <div class="card-body   bg-dark">
+                                        <section class="d-flex justify-content-between px-2">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 mb-2"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between px-2 ">
+                                            <div>
+                                                <p class="text-white  fw-bold card-icon">DUNKI</p>
+                                                <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            </div>
+                                            <div>
+                                                <span class="text-white border h-50 fw-bold">HD</span>
+                                            </div>
+                                        </section>
+                                        <p class="px-2 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/ANIMAL (OFFICIAL TEASER)_ Ranbir Kapoor _Rashmika M, Anil K, Bobby D _Sandeep Reddy Vanga _Bhushan K.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between px-2">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon mb-2  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between px-2">
+                                            <div>
+                                                <p class="text-white  fw-bold card-icon">ANIMAL</p>
+                                                <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            </div>
+                                            <div>
+                                                <span class="text-white border h-50 fw-bold">HD</span>
+                                            </div>
+
+                                        </section>
+                                        <p class="px-2 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Kho Gaye Hum Kahan _ Official Trailer _ 26 December _ Siddhant C _ Ananya P _ Adarsh Gourav.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between px-2">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon mb-2  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between px-2">
+                                            <div>
+                                                <p class="text-white  fw-bold card-icon">Kho Gaye Hum Kahan</p>
+                                                <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            </div>
+                                            <div>
+                                                <span class="text-white border h-50 fw-bold">HD</span>
+                                            </div>
+                                        </section>
+                                        <p class="px-2 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem; ">
+                                    <video autoplay loop muted
+                                        src="/images/The Railway Men _ Official Trailer _ Netflix India.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between px-2">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon mb-2 fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between px-2">
+                                            <div>
+                                                <p class="text-white  fw-bold card-icon">The Railway Men</p>
+                                                <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            </div>
+                                            <div>
+                                                <span class="text-white border h-50 fw-bold">HD</span>
+                                            </div>
+                                        </section>
+                                        <p class="px-2 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+
+                        <!-- carousel-item---1 -->
+
+                        <div class="carousel-item" data-bs-interval="10">
+                            <section class="d-flex">
+
+                                <div class="card ms-auto border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images1/12th Fail - Official Trailer _ Vidhu Vinod Chopra _ In Cinemas Worldwide 27th October, 2023.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images1/Kabir Singh – Official Trailer _ Shahid Kapoor, Kiara Advani _ Sandeep Reddy Vanga _ 21st June 2019.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images1/KGF Trailer Hindi _ Yash _ Srinidhi _ 21st Dec 2018.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images1/Leo _ Official Tamil Trailer _ Thalapathy Vijay,  Lokesh Kanagaraj, Trisha Krishnan.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <!-- carousel-item-2 -->
+
+                        <div class="carousel-item" data-bs-interval="10">
+                            <section class="d-flex">
+                                <div class="card ms-auto border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images1/Pushpa Official Trailer _ Allu Arjun _ Rashmika _ Fahadh Faasil _ Sukumar _ DSP _ 17th Dec.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images1/jj.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images1/Sanju _ Official Trailer _ Ranbir Kapoor _ Rajkumar Hirani _ Releasing on 29th June.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images1/Sixty Minutes _ Official Trailer _ Netflix.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+
+
+        <!--                                                        Hollywood movies                         -->
+
+
+        <section class="p-5 nav-banner ">
+            <h3 class="px-2 p-5 ms-2 text-white fw-bold ">Hollywood movies</h3>
+            <div class="container-fluid">
+
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <!-- carousel-item -0 -->
+
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <section class="d-flex">
+                                <div class="card  ms-auto   border-0  " style="width: 30rem; ">
+                                    <video autoplay loop muted
+                                        src="/images/Wednesday Addams Season 2  - Teaser Trailer 2023  - Netflix FAN Concept.mp4"></video>
+                                    <div class="card-body   bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/SHE CAME TO ME Trailer (2023) Anne Hathaway, Peter Dinklage.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Harry Potter And The Cursed Child - Trailer (2025) Based On A Book _ Teaser PRO's Concept Version.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/EXTRACTION 2 _ Official Trailer _ Netflix.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+
+                        <!-- carousel-item---1 -->
+
+                        <div class="carousel-item" data-bs-interval="10">
+                            <section class="d-flex">
+
+                                <div class="card ms-auto border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/la.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/la.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/la.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/la.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                        <!-- carousel-item-2 -->
+
+                        <div class="carousel-item" data-bs-interval="10">
+                            <section class="d-flex">
+                                <div class="card ms-auto border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+
+        <!--                                          Premium webseries part------                    -->
+
+
+        <section class="p-5 nav-banner ">
+            <h3 class="px-2 p-5 ms-2  text-white fw-bold ">Premium webseries</h3>
+            <div class="container-fluid">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade " data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <!-- carousel-item -0 -->
+
+                        <div class="carousel-item active" data-bs-interval="1000">
+                            <section class="d-flex">
+                                <div class="card  ms-auto   border-0  " style="width: 30rem; ">
+                                    <video autoplay loop muted src="/images/berlin.mp4"></video>
+                                    <div class="card-body   bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/berlin.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/berlin.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/berlin.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+
+
+                        <!-- carousel-item---1 -->
+
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <section class="d-flex">
+
+                                <div class="card ms-auto border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/la.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/la.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/la.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3 "
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted src="/images/la.mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div> 
+
+                        <!-- carousel-item-2 -->
+
+                        <div class="carousel-item" data-bs-interval="1000">
+                            <section class="d-flex">
+                                <div class="card ms-auto border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon fs-3 "
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                                <div class="card ms-2 border-0 " style="width: 30rem;">
+                                    <video autoplay loop muted
+                                        src="/images/Bella CiaoOne Last Time _ Money Heist Part 5 .mp4"></video>
+                                    <div class="card-body bg-dark">
+                                        <section class="d-flex justify-content-between">
+                                            <div>
+                                                <i class="fa fa-play-circle text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                                <i class="fa fa-plus-circle text-white card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                            <div>
+                                                <i class="fa fa-cloud-download text-white  card-icon  fs-3"
+                                                    aria-hidden="true"></i>
+                                            </div>
+                                        </section>
+                                        <section class="d-flex justify-content-between">
+                                            <p class="text-white  fw-bold card-icon">Limited Series</p>
+                                            <span class="text-white border  h-50  fw-bold">HD</span>
+
+                                        </section>
+                                        <p class="m-0 text-white card-icon">Provocative · Psychological · Thriller </p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div> 
+
+                    </div>
+
+                </div>
+
+            </div>
+            </div>
+        </section>
+
+        <!--                                                          middle banner                       -->
+
+        <section class="d-flex align-items-center images-4" >
+            <p class="banner-1 "><span class="icons-5" >Netflix </span>premium webseries live strem on <span
+                    class="icons-6">29th December</span> <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></p>
+        </section>
+
+        <!--                                                    More Like This                              -->
+
+        <section class="p-5 more-1">
+            <h3 class="px-2 p-5 ms-2  text-white fw-bold ">More Like This</h3>
+            <div class="container-fluid ">
+                <div class="row  row-cols-lg-3 g-4 row-cols-lg-5 g-lg-12 " >
+                    <div class="col-lg-3 col-sm-6  " >
+                        <img src="/images1/img1.jpg " class="   img-fluid  images-1" alt="" >
+                    </div>
+                    <div class="col-lg-3 col-sm-6   " >
+                        <img src="/images1/img2.jpg" class="  img-fluid   images-1" alt="" >
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <img src="/images1/img3.jpg" class="img-fluid  images-1" alt="" >
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <img src="/images1/img4.jpg" class=" img-fluid  images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <img src="/images1/img5.jpg" class="img-fluid images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <img src="/images1/img-6.jpg" class="img-fluid images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <img src="/images1/img-11.jpg" class="img-fluid images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <img src="/images1/img-14.jpg" class="img-fluid images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <img src="/images1/img-9.jpg" class="img-fluid images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <img src="/images1/img-10.jpg" class="img-fluid  images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <img src="/images1/m3.jpg" class="img-fluid images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <img src="/images1/m1.jpg" class="img-fluid images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <img src="/images1/AAAABeyVBvB2IMcmbPKghKMzsdgSK_thtuwHOaBdjYB9T5DF9ptxgPm9K-ROji5t5mFbMFjqwiRyabpzOjIQHpYEtGBZHFRE0WIV-nLu.jpg"
+                            class="img-fluid images-1" alt="">
+                    </div>
+                    <div class="col-lg-3 col-sm-6 ">
+                        <img src="/images1/m2.jpg" class="img-fluid images-1" alt="">
+                    </div>
+                    <button
+                        class="btn fs-4 fw-bold  text-dark d-flex justify-content-center   align-items-center   bg-white  rounded-pill more-2 me-md-2 "
+                        style="width: 12%; height: 6vh;" type="button">SEE MORE<i
+                            class="fa fa-chevron-circle-down p-3 fs-3" aria-hidden="true"></i> </button>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--                                                               movies-part  -->
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="movie-1">
+                        <div class="d-flex align-items-start justify-content-center ms-auto flex-column movie-2">
+                            <img src="/images1/anabela1.png" style="width: 40%;" alt="">
+                            <h5 class="fs-1 text-white">Cult of Chucky</h5>
+                            <h3 class="fs-4 font-weight-bold text-white"><span class="mr-auto">2017 | Maturity Rating:A
+                                    | 1h 30m | Horror | &star;&star;&star;&star;&star;</span></h3>
+                            <p class="display-12 mb-3 text-white fw-bold">Following a string of murders in the
+                                psychiatric facility where she's confined, Nica Pierce begins to question the existence
+                                of Chucky.</p>
+                            <h4 class="fs-6 text-white">Starring:Fiona Dourif,Michael Therriault,Adam Hurtig</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="movie-3">
+                        <div class="d-flex align-items-start justify-content-center ms-auto flex-column movie-4">
+                            <img src="/images1/m-6.png" class="mb-5" style="width: 40%;" alt="">
+                            <h5 class="fs-1 text-white">Insidious: The Red Door</h5>
+                            <h3 class="fs-4 font-weight-bold text-white"><span class="mr-auto">2023 | Maturity
+                                    Rating:U/A 13+ | 1h 47m | Horror &star;&star;&star;&star;&star;</span></h3>
+                            <p class="display-12 mb-3 text-white fw-bold">Josh Lambert and his college-age son Dalton
+                                grapple with generational trauma when they uncover repressed memories of the demon
+                                haunting their family.</p>
+                            <h4 class="fs-6 text-white">Starring:Ty Simpkins,Patrick Wilson,Rose Byrne</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="movie-5">
+                        <div class="d-flex align-items-start justify-content-center ms-auto flex-column movie-6">
+                            <img src="/images1/m-8.png" class="mb-5" style="width: 40%;" alt="">
+                            <h5 class="fs-1 text-white">Insidious: The Red Door</h5>
+                            <h3 class="fs-4 font-weight-bold text-white"><span class="mr-auto">2023 | Maturity
+                                    Rating:U/A 13+ | 1h 47m | Horror &star;&star;&star;&star;&star;</span></h3>
+                            <p class="display-12 mb-3 text-white fw-bold">Josh Lambert and his college-age son Dalton
+                                grapple with generational trauma when they uncover repressed memories of the demon
+                                haunting their family.</p>
+                            <h4 class="fs-6 text-white">Starring:Ty Simpkins,Patrick Wilson,Rose Byrne</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--                                                                 movies-part-end   -->
+
+
+
+        <section class="box-1 d-flex justify-content-center  align-items-center flex-column" >
+  
+            <h5 class="display-6  text-white">The biggest Indian hits. Ready to watch here from ₹149.</h5>
+            <h3 class="fs-3 font-weight-bold text-white">Join today. Cancel anytime.</h3>
+            <p class="fs-5 mb-3 text-white fw-bold">Ready to watch? Enter your email to create or restart your
+                membership.</p>
+            <div class="d-flex justify-content-center inline-block  box-3">
+                <div class="col-sm-6 lg-12 form-outline me-5 " style="width: 25rem">
+                    <input type="text" class="form1  form-control" placeholder="Email Address" />
+                </div>
+                <div class="col-sm-6 lg-12">
+                    <button type="button" class="btn box-2">Get Started<i class="fa fa-arrow-right ms-2"
+                            aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+       
+        </section>
+
+    </main>
+
+
+    <!--                                                               footer-part         -->
+
+
+    <footer class="footer-main">
+
+
+
+        <div class="container-fluid  p-5 footer-main-2">
+
+            <div class="row d-flex justify-space-between align-items-center">
+                <!-- -md-3 col-lg-2 col-xl-3 -->
+                <div class="col mt-4 ">
+                    <h6 class="text-uppercase mb-2 font-weight-bold text-white">
+                        FAQ
+                    </h6>
+                    <ul class="list-group mb-2 text-white ">
+                        <li class="list-group  mb-3">Investor Relations</li>
+                        <li class="list-group mb-3 ">Ways to Watch</li>
+                        <li class="list-group mb-3 ">Corporate Information</li>
+                        <li class="list-group mb-3 ">Netflix Originals</li>
+                        <div class="dropdown">
+                            <button class="drop-1 bg-dark text-white dropdown-toggle" type="button"
+                                id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-globe m-2" aria-hidden="true"></i>English
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-start" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item" href="#">Hindi</a></li>
+                                <li><a class="dropdown-item" href="#">Spanish</a></li>
+                                <li><a class="dropdown-item" href="#">Russian</a></li>
+                            </ul>
+                        </div>
+                    </ul>
+                </div>
+
+                <!-- -md-2 col-lg-2 col-xl-2 -->
+
+                <div class="col">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">Help Center</h6>
+                    <p>
+                        <a class="text-white">Jobs</a>
+                    </p>
+                    <p>
+                        <a class="text-white">Terms to Use</a>
+                    </p>
+                    <p>
+                        <a class="text-white">Contact Us</a>
+                    </p>
+                </div>
+                <!-- -md-3 col-lg-2 col-xl-2 -->
+                <div class="col">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">
+                        Account
+                    </h6>
+                    <p>
+                        <a class="text-white ">Redeem Gift Card</a>
+                    </p>
+                    <p>
+                        <a class=" text-white">Privacy</a>
+                    </p>
+                    <p>
+                        <a class=" text-white">Speed Test</a>
+                    </p>
+
+                </div>
+                <!-- -md-4 col-lg-6 col-xl-3 -->
+                <div class="col">
+                    <h6 class="text-uppercase mb-4 font-weight-bold text-white">Media Center</h6>
+                    <p>
+                        <a class=" text-white">Buy Gift Cards</a>
+                    </p>
+                    <p>
+                        <a class=" text-white">Cookie Preferences</a>
+                    </p>
+                    <p>
+                        <a class=" text-white">Legal Notices</a>
+                    </p>
+                </div>
+            </div>
+            <!--                                                             icon-part -->
+            <hr class=""  >
+
+            <section class="footer-main-2">
+                <div class="row d-flex justify-content-between align-items-center">
+
+                    <div class="col-md-7 col-lg-8  text-md-start">
+
+                        <div class="text-white">
+                            © 2023 Copyright:
+                            <a class="text-white" href="#">
+                                <img src="/images/logo-netflix.1e66eca0ecf8444cc1dc.svg" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-5 col-lg-4 ml-lg-0  text-md-center ">
+
+                        <a class="btn btn-outline-light btn-floating m-1 footer-icon" class="text-white"
+                            role="button"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+
+
+                        <a class="btn btn-outline-light btn-floating m-1  footer-icon" class="text-white"
+                            role="button"><i class="fa fa-twitter" aria-hidden="true"></i></i></a>
+
+                        <a class="btn btn-outline-light btn-floating m-1  footer-icon" class="text-white"
+                            role="button"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+
+                        <a class="btn btn-outline-light btn-floating m-1  footer-icon" class="text-white"
+                            role="button"><i class="fa fa-google" aria-hidden="true"></i></a>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap popper js CDN link  -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap main js link  -->
+    <script src="/Bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>
